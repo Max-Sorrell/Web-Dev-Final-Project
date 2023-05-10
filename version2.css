@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+  font-size: 175%;
+  overflow-x: hidden;
+  margin: 0%;
+  }
+
+.mainMenu, ul, li{
+  display: none;
+}
+
+.Header {
+
+  height: 15vh;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  position: fixed;
+}
+
+#logo{
+
+  color: navy;
+  position: relative;
+  text-align: center;
+  right: 1%;
+
+}
+#menu{
+  color: navy;
+  position: relative;
+  text-align: center;
+  left: 1%;
+}
+h1 {
+  color: navy;
+  font-size: 50px;
+  position: relative;
+  width: 25vw;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  
+}
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  height: 300px;
+  height: 15vh;
+
+}
+
+
+
+
+#bgPic{
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}

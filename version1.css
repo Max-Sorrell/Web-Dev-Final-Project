@@ -11,7 +11,11 @@ h1 {
   font-size: 50px;
   position: relative;
   width: 25vw;
-  margin: 0%;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  
   
 }
 h2 {
@@ -79,7 +83,9 @@ code{
 }
 
 .Header {
-  display: inline-block;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: inline-flex;
   background: #1abc9c;
   color: white;
   font-size: 30px;
@@ -92,13 +98,13 @@ code{
   color: navy;
   position: relative;
   text-align: center;
-  right: 40vw;
+  right: 1vw;
 }
 #menu{
   color: navy;
   position: relative;
   text-align: center;
-  left: 40vw;
+  left: 1vw;
 }
 #bgPic{
   width:100vw;

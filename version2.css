@@ -3,13 +3,17 @@ body {
   font-size: 175%;
   overflow-x: hidden;
   margin: 0%;
+
+
+  height: 10000px;
   }
 
 .mainMenu, ul, li{
   display: none;
 }
 
-.Header {
+.Header{
+
 
   height: 15vh;
   background: #1abc9c;
@@ -55,11 +59,10 @@ h1 {
 }
 
 
-
-
 #bgPic{
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat, repeat;
   background-size: cover;
 }
+

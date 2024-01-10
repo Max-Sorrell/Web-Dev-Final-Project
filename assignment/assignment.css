@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: auto;
     margin: 0px;
+    
 
 }
 .canvasclass{
@@ -17,6 +18,9 @@ body{
     background-color: #ddac27; /* #f1ab25 is a nice orange and it looks like flab*/
     width: 100%;
     height: 80px;
+    box-sizing: border-box;
+    border: solid;
+    z-index: 1;
 }
 #text-logo{
     display: block;
@@ -44,6 +48,8 @@ body{
     height: 100%;
     background-color: blue;
     margin-top: 80px;
+
+
 }
 .main-content{
     position: fixed;
@@ -53,6 +59,45 @@ body{
     padding: 0%;
     left: 25%;
     margin-top: 80px;
+    background-image: url("pics/ai/rp2.png");
+    border: solid;
+    z-index: 1;
+    box-sizing: border-box;
+    border-top: 0px;
+
+}
+
+#mcatis{
+    min-width: 200px;
+    min-height: 200px;
+    
+    height: 100%;
+    width: 100%; 
+    grid-area: mcatis;
+}
+
+#descriptionofmcatis{
+    grid-area: descriptionofmcatis;
+    color: #ddac27;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-wrap: pretty;
+    font-family: "Salsa";
+    font-size: 4vw;
+}
+
+.grid{
+    margin: 10px;
+    display: grid;
+    grid-template-areas:
+    "mcatis"
+    "descriptionofmcatis";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
 }
 
 .theatrics{
@@ -63,6 +108,7 @@ body{
     margin-top: 80px;
     right: 0px;
     background-image: url("pics/site-background.jpg");
+    
 
 }
 #button{
@@ -88,6 +134,17 @@ body{
 
 @media (min-width: 540px) {
     /*large mobile sized device*/
+    .grid{ /*proof conceptually this works - can switch content depending on certain things*/
+        margin: 10px;
+        display: grid;
+        grid-template-areas:
+        
+        "descriptionofmcatis"
+        "mcatis";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
 }
 
 @media (min-width: 720px) {

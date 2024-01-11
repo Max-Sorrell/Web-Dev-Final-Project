@@ -150,9 +150,7 @@ body{
         grid-template-rows: 1fr 1fr;
     
     }
-    #track{
-        content: url(music/spotifydown.com\ -\ Tonight\,\ Tonight\ -\ Remastered\ 2012.mp3);
-    }
+    
 }
 
 @media (min-width: 720px) {

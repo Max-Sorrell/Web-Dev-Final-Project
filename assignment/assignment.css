@@ -91,9 +91,7 @@ body{
 #player{
     grid-area: player;
 }
-#track{
-    src: url("music/spotifydown.com\ -\ Mellon\ Collie\ And\ The\ Infinite\ Sadness\ -\ Remastered\ 2012.mp3")
-}
+
 
 .grid{
     margin: 10px;

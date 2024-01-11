@@ -20,7 +20,7 @@
 
     <div class = "sun-and-moon">
         <div class = "flex">
-            <img src="pics/animation-sunlight-clip-art-sun-png.jpg" alt="sun and moon image" id = "sun-and-moon-image">
+            <img src="pics/animation-sunlight-clip-art-sun-png.jpg" alt="sun and moon image" id = "sun-and-moon-image" onclick="progressTime()">
         </div>
 
 
@@ -28,14 +28,16 @@
 
     <div class = "main-content">
         <div class = "grid">
-            <img src="pics/mellon-collie-and-the-infinite-sadness---cover-art_custom-ab1a9effa9ca9ee17ff640cdda0fc03fc5d09712.jpg" alt="album art" id = "mcatis" onclick="updateSource()">
+            <img src="pics/mellon-collie-and-the-infinite-sadness---cover-art_custom-ab1a9effa9ca9ee17ff640cdda0fc03fc5d09712.jpg" alt="album art" id = "mcatis" >
             <p id = "descriptionofmcatis">
                 Description - dtrdudt uyi uytff ufuitf ufttu ttdfrydyejd mhdmyrd rhmf uot fgitfrf yltfdrsrrtxs
             </p>
-            <audio controls id = "player">
+
+            <audio controls id = "player" autoplay>
                 <source id = "track" type="audio/mpeg" src="music/spotifydown.com - Bullet With Butterfly Wings - Remastered 2012.mp3">
                 Your browser does not support the audio element.
             </audio>
+
         </div>
 
     </div>
@@ -43,7 +45,7 @@
     <div class = "theatrics">
         
         <img id = "ribbon" src="pics/try.png" alt="velvet ribbon">
-        <button type="button" id = "button">
+        <button type="button" id = "button" onclick="changeAudio()">
             <img id = "end" src="pics/end.png" alt="velvet ribbon">
 
         </button>

@@ -39,7 +39,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px; /* this should be num of clicks / 28 (num of songs)*/
-
+    z-index: 1;
+    position: relative;
     
 }
 #sun-and-moon{
@@ -48,9 +49,24 @@ body{
     height: 100%;
     background-color: blue;
     margin-top: 80px;
-
-
 }
+
+#background-top{
+    height: calc(50% - 40px);
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+#background-bottom{
+    bottom: 0px;
+    height: calc(50% - 40px);
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+
+
 .main-content{
     position: fixed;
     background-color: yellowgreen;

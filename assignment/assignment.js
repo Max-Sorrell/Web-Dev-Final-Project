@@ -15,7 +15,7 @@ function changeAudio() {
 function updateHeight(){
   var location = document.getElementById("sun-and-moon-image");
   var samHeight = document.getElementById("sun-and-moon").offsetHeight;
-  samHeight = samHeight - 80; // remove the amount of room the header takes up
+  samHeight = samHeight - 160; // remove the amount of room the header takes up
   var test = (counter / 28) * samHeight;
   location.style.paddingTop = test + "px";
 

@@ -160,3 +160,24 @@ body{
 @media (min-width: 1024px) {
 
 }
+
+
+
+#progress{
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 10px;
+    margin-left: 100px;
+    margin-right: auto;
+    container-type: inline-size;
+    z-index: 6;
+    background-color: whitesmoke;
+}
+
+@container (height: 20px) {
+    #sun-and-moon-image{
+      width: 500px;
+    }
+    
+  }

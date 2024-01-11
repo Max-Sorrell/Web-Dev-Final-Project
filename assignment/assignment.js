@@ -8,12 +8,15 @@ function changeAudio() {
   if(counter > 28){
     counter = 1;
   }
-}
-function progressTime(){
-    var img = document.getElementById("sun-and-moon-image");
-    img.opacity; "10%";
+
+  
+
 
 }
+function updateHeight(){
+  var divProgress = document.getElementById("progress");
+  divProgress.style.height = "20px";
+}
 
+updateHeight();
 changeAudio();
-progressTime();

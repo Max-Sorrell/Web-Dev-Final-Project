@@ -8,15 +8,20 @@ function changeAudio() {
   if(counter > 28){
     counter = 1;
   }
-
-  
-
-
+  updateHeight();
 }
+
+
 function updateHeight(){
-  var divProgress = document.getElementById("progress");
-  divProgress.style.height = "20px";
+  var location = document.getElementById("sun-and-moon-image");
+  var samHeight = document.getElementById("sun-and-moon").offsetHeight;
+  samHeight = samHeight - 80; // remove the amount of room the header takes up
+  var test = (counter / 28) * samHeight;
+  location.style.paddingTop = test + "px";
+
 }
+
+
 
 updateHeight();
 changeAudio();

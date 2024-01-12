@@ -24,6 +24,8 @@ function updateHeight(){
   var calculateThePosition = (counter / 28) * samHeight;
   location.style.paddingTop = calculateThePosition + "px";
   opacity();
+  
+
   if(counter > 14){
     changeSunToMoon();
     
@@ -45,13 +47,13 @@ function opacity(){
   var top = document.getElementById("background-top");
   var bottom = document.getElementById("background-bottom");
 
-  tempDay = tempDay -3.57142857143;
+  tempDay = tempDay -"3.57142857143%";
   tempNight = tempNight -3.57142857143;
   tempTop = tempTop + 3.57142857143;
   tempBottom = tempBottom + 3.57142857143;
 
 
-  day.style.opacity = tempDay;
+  day.style.opacity = tempDay+"%";
   night.style.opacity = tempNight;
 
   
